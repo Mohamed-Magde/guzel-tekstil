@@ -1,0 +1,38 @@
+.about {
+  margin-top: 8em;
+  margin-bottom: 8em;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -6em;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 70%;
+    border-radius: 50px;
+    background-color: rgba($primary, 0.5);
+    border-radius: 20px;
+  }
+
+  .container {
+    width: 60%;
+  }
+  &-title {
+    margin-bottom: 4em;
+    span {
+      color: $secondary;
+      font-size: 1.5rem;
+      font-weight: 100;
+    }
+    p {
+      color: $primary;
+      font-size: 1.7rem;
+    }
+  }
+  figure {
+    img {
+      box-shadow: 0px 2px 30px rgba(#000, 0.2);
+    }
+  }
+}

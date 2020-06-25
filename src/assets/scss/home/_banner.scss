@@ -1,0 +1,28 @@
+.header {
+  margin-top: 4em;
+  display: flex;
+  position: relative;
+  height: 75vh;
+  line-height: 1.2;
+  .container {
+    width: 65%;
+    padding-left: 3em;
+    padding-top: 2em;
+    padding-right: 1em;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+  .img-dots {
+    position: absolute;
+    bottom: 0%;
+    right: 45%;
+    z-index: 77777;
+  }
+  p {
+    color: darken($secondary, $amount: 20);
+    line-height: 1.7;
+    font-size: 1.2rem;
+  }
+}
